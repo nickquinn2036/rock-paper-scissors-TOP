@@ -5,14 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock, Paper, Scissors TOP Game</title>
     <script src="game.js"></script>
-    <head>
-    <title>Rock Paper Scissors</title>
     
     <style>
-
         body {
             background-color: purple;
-            
+            margin: 0;
+            padding: 10px;
+            font-family: sans-serif;
         }
         
         .header {
@@ -20,12 +19,22 @@
             background-color: salmon;
             color: aliceblue;
             border: 3px dotted black;
-           justify-content: center;
+            justify-content: center;
+            text-align: center; /* Centers the text if it wraps on small screens */
+            margin-bottom: 20px;
         }
 
+        /* 🚀 FIX: Keeps the image centered and prevents it from bleeding off-screen */
         .image {
             display: flex;
             justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .image img {
+            max-width: 100%;
+            height: auto;
+            display: block;
         }
 
         .paragraph {
@@ -33,8 +42,10 @@
             background-color: salmon;
             color: black;
             border: 3px dotted black;
-           justify-content: center;
-           font-size: larger;
+            justify-content: center;
+            text-align: center;
+            font-size: larger;
+            padding: 10px;
         }
     </style>
 </head>
