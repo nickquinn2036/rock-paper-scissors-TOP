@@ -1,4 +1,4 @@
-# Rock, Paper, Scissors
+# Nick Quinn's Rock, Paper, Scissors
 
 A responsive command and UI-driven implementation of the classic game. Built to practice core JavaScript logic flow, function structures, and DOM interface updates.
 
